@@ -1,73 +1,65 @@
 {
     "$schema": "https://mintlify.com/docs.json",
-    "theme": "maple",
+    "theme": "mint",
     "name": "Sourcebot",
     "colors": {
-        "primary": "#16A34A",
-        "light": "#07C983",
-        "dark": "#15803D"
+        "primary": "#851EE7",
+        "light": "#851EE7",
+        "dark": "#851EE7"
     },
     "favicon": "/favicon.ico",
+    "styling": {
+        "eyebrows": "section"
+    },
     "navigation": {
-        "tabs": [
+        "anchors": [
             {
-                "tab": "Guides",
+                "anchor": "Docs",
+                "icon": "book-open",
                 "groups": [
                     {
-                        "group": "Get Started",
+                        "group": "General",
                         "pages": [
-                            "introduction",
-                            "quickstart",
-                            "development"
+                            "docs/overview",
+                            "docs/getting-started"
                         ]
                     },
                     {
-                        "group": "Essentials",
+                        "group": "Connections",
                         "pages": [
-                            "essentials/markdown",
-                            "essentials/code",
-                            "essentials/images",
-                            "essentials/settings",
-                            "essentials/navigation",
-                            "essentials/reusable-snippets"
+                            "docs/connections/overview",
+                            "docs/connections/github"
+                        ]
+                    },
+                    {
+                        "group": "Access Tokens",
+                        "pages": [
+                            "docs/access-tokens/overview",
+                            "docs/access-tokens/secrets"
                         ]
                     }
                 ]
             },
             {
-                "tab": "API Reference",
+                "anchor": "Self Hosting",
+                "icon": "server",
                 "groups": [
                     {
-                        "group": "API Documentation",
+                        "group": "Getting Started",
                         "pages": [
-                            "api-reference/introduction"
+                            "self-hosting/overview"
                         ]
                     },
                     {
-                        "group": "Endpoint Examples",
+                        "group": "Deployment",
                         "pages": [
-                            "api-reference/endpoint/get",
-                            "api-reference/endpoint/create",
-                            "api-reference/endpoint/delete"
+                            "self-hosting/deployment/docker",
+                            "self-hosting/deployment/source"
                         ]
                     }
                 ]
             }
-        ],
-        "global": {
-            "anchors": [
-                {
-                    "anchor": "Community",
-                    "href": "https://mintlify.com/community",
-                    "icon": "discord"
-                },
-                {
-                    "anchor": "Blog",
-                    "href": "https://mintlify.com/blog",
-                    "icon": "newspaper"
-                }
-            ]
-        }
+        ]
     },
     "logo": {
         "light": "/logo/light.png",
@@ -82,15 +74,13 @@
         ],
         "primary": {
             "type": "button",
-            "label": "Dashboard",
-            "href": "https://dashboard.mintlify.com"
+            "label": "Login",
+            "href": "https://sourcebot.dev/login"
         }
     },
     "footer": {
         "socials": {
-            "x": "https://x.com/mintlify",
-            "github": "https://github.com/mintlify",
-            "linkedin": "https://linkedin.com/company/mintlify"
+            "github": "https://github.com/sourcebot-dev/sourcebot"
         }
     }
 }
