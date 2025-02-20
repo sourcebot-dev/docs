@@ -37,7 +37,7 @@ For a detailed description of the schema, check out the schema file (TODO: link)
         ```json
         {
             "type": "github",
-            "orgs": [
+            "users": [
                 "msukkari",
                 "brendan-kellem",
                 "torvalds"
@@ -79,6 +79,7 @@ For a detailed description of the schema, check out the schema file (TODO: link)
             "token": {
                 "secret": "MY_SECRET"
             }
+            // .. additional configs ..
         }
         ```
     </Tab>
@@ -171,7 +172,9 @@ This connection type supports additional options for filtering which repos are i
                     "min": 1000
                     "max": 1000000000
                 }
+                // .. additional excludes .. 
             }
+            // .. additional configs .. 
         }
         ```
     </Tab>

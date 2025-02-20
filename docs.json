@@ -28,7 +28,8 @@
                         "group": "Connections",
                         "pages": [
                             "docs/connections/overview",
-                            "docs/connections/github"
+                            "docs/connections/github",
+                            "docs/connections/gitlab"
                         ]
                     },
                     {
