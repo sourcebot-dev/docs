@@ -7,7 +7,7 @@
         "light": "#851EE7",
         "dark": "#851EE7"
     },
-    "favicon": "/images/favicon.ico",
+    "favicon": "/favicon.ico",
     "styling": {
         "eyebrows": "section"
     },
