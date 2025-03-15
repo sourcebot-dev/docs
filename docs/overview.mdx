@@ -10,18 +10,28 @@ Sourcebot is an open-source code search tool ([Github](https://github.com/source
 
 We have a [public demo](https://sourcebot.dev/search) if you'd like to try it out.
 
-If you'd like to use Sourcebot with your own code, you can [self-host](/self-hosting) or get started for free on [Sourcebot Cloud](https://sourcebot.dev/login)
-<video
-  autoPlay
-  muted
-  loop
-  playsInline
-  className="w-full aspect-video"
-  src="https://framerusercontent.com/assets/g7HCLvfnv8dd6QAWrVWsmQzJzU.mp4"
-></video>
+There are two ways to get started using Sourcebot:
+<AccordionGroup>
+  <Accordion title="Sourcebot Cloud">
+  A fully managed version of Sourcebot that is hosted and maintained by the Sourcebot team: https://app.sourcebot.dev/
+  
+  Best for teams who:
+    - Have large indexing requirements (500+ repos)
+    - Don't want to deal with the headache of managing their own Sourcebot deployment
+  </Accordion>
 
+  <Accordion title="Self-host Sourcebot">
+  Run Sourcebot within your own infrastructure. Check out our [self-hosting](http://localhost:3000/self-hosting/overview) guide to get started (it takes < 1 minute to spin up)
+
+  Best for teams who:
+    - Want to try out Sourcebot without going through security review (everything stays on your machine)
+    - Want full control over their Sourcebot deployment
+  </Accordion>
+</AccordionGroup>
+
+Once you know which Sourcebot deployment you want to use, check out the [Getting Started](/getting-started) page
 # Platform Support
 
 Sourcebot can index repositories across various different code host platforms
 
-<ConnectionCards/
+<ConnectionCards />
